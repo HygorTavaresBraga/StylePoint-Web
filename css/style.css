@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #fff;
+}
+
+@font-face {
+    font-family: 'Canter';
+    src: url('../fonts/Canter/Canter-Light.otf') format('opentype'),
+         url('../fonts/Canter/Canter-Light.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+}
+
+#header{
+    width: 100%
+}
+
+#promocao{
+    width: 100%;
+    height: 25px;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 750px){
+    #promocao{
+        display: none;
+    }
+
+}
+
+@media(max-width: 785px){
+    #grandes-marcas{
+        display: none;
+    }
+}
+
+#promocao b{
+    margin: 0 auto;
+    font-size: 13px;
+    color: #958b88;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo-left{
+    width: 25px;
+    height: 25px;
+}
+
+#logo-center{
+    width: 150px;
+    height: 32px;
+}
+
+nav ul li{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+#login{
+    background: none;
+    border: none;
+}
+
+#login a{
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+#login, #sacola, #coracao{
+    color: #fff;
+    text-decoration: none;
+}
+
+#sacola, #coracao{
+    margin-right: 15px;
+}
+
+.menu{
+    background-color: #030c15;
+    border-bottom: #ebebeb;
+}
+
+.menu a:hover{
+    color: #958b88;
+    text-decoration: underline;
+}
+
+.sub-menu{
+    background-color: rgb(6, 23, 41);
+    backdrop-filter: blur(15px);
+}
+
+.sub-menu a{
+    list-style: none;
+    color: #a3a3a3;
+    text-transform: uppercase;
+    padding: 0 5px 0 5px;
+}
+
+.sub-menu a:hover{
+    color: #958b88;
+    text-decoration: underline;
+}
+
+#btn-aceso{
+    border: none;
+    border-radius: 5px;
+
+    display: block;
+    background-color: #ebebeb;
+}
+
+#btn-apagado{
+    border: none;
+    border-radius: 5px;
+    display: none;
+    background-color: #ebebeb;
+}
+
+#carouselExampleCaptions{
+    margin: 0 0 25px 0;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+main{
+    width: 100%;
+    background-color: #e0e0e0, #030c15;
+}
+
+#title-area-logo{
+    background-color: #030c15;
+    margin-top: 25px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+#title-area-logo h1{
+    font-family: 'Canter';
+    color: #ebebeb;
+    border-bottom: #ebebeb;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+#grandes-marcas{
+    margin: 50px 0 50px 0;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+#img-area-logo{
+    background-color: #000000bb;
+    background-image: url('../assets/home/fog-img2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    background-color: #cacaca;
+    height: auto;
+}
+
+#img-area-logo a{
+    padding: 15px 15px 0 15px;
+}
+
+#img-area-logo a img{
+    width: 30%;
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#img-area-logo img:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: 0.8s;
+}
+
+#area-sessoes #banner-2, #area-sessoes #banner-3, #area-sessoes #banner-4{ 
+    -webkit-transform: scale(1); /*tamanho Normal da imagem*/
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease-out;
+}
+
+#area-sessoes #banner-2:hover, #area-sessoes #banner-3:hover, #area-sessoes #banner-4:hover{
+  -webkit-transform: scale(0.9); /*Esta é a escala de tamanho ampliada da imagem.*/
+  -webkit-transition-duration: 2s;
+  -webkit-transition-timing-function: ease-out;
+}
+
+
+#area-sessoes{
+    margin: 50px auto 50px auto;
+    background-color: #000000bb;
+    background-image: url('../assets/bg-sessao.jpg');
+    background-size: cover;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+#area-sessoes img{
+    padding: 25px;
+}
+
+#container-video{
+    background-image: url('../assets/bg-sessao.jpg');
+}
+
+#area-video{
+    background-color: #000000bb;
+
+}
+
+footer{
+    background-color: #030c15;
+    color: #e0e0e0;
+    margin-top: 100px;
+}
+
+
+#footer-header{
+    background-color: #041220;
+    padding: 10px 0 10px 0;
+}
+
+#footer-header span{
+    font-family: 'Catamaran';
+}
+
+#footer-main{
+    padding: 30px 0 30px 0;
+}
+
+#footer-bottom{
+    padding: 20px 0 20px 0;
+}
+
+#footer-main h6{
+    font-family: 'Canter';
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#footer-main span{
+    font-family: 'Catamaran';
+    font-size: 12px;
+}
+
+#footer-main #email{
+    font-family: 'Catamaran';
+}
+
+#footer-main button{
+    padding: 0 10px 0 10px;
+    text-transform: uppercase;
+    font-family: 'Catamaran';
+}
+
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+#footer-bottom .col-md-4{
+    margin-bottom: 25px;
+}
+
+#footer-bottom h6, #footer-bottom span{
+    font-family: 'Catamaran';
+    
+}
+
+/* [FOOTER] REDES SOCIAIS */
+
+#redes-sociais a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#redes-sociais a:hover{
+    color: #cacaca;
+}
+
+/* [FOOTER] CONTATOS */
+
+#fale-conosco a, #whatsapp a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#fale-conosco a:hover, #whatsapp a:hover{
+    color: #cacaca;
+}
+
+/*LOJAS*/
+
+.local{
+    text-align: center;
+    margin: 0 0 50px 0;
+    background-image: url(../assets/lojas/background.jpg);
+    background-size: contain;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+#img-loja{
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+.endereco-loja{
+    background-color: #030c15;
+}
+
+.endereco-loja h2{
+    background-color: #030c15;
+    color: #ebebeb;
+    text-align: center;
+    font-family: 'Catamaran';
+    font-size: 25px;
+
+}
+
+.mapa {
+    background-color: #030c15;
+    margin-bottom: 50px;
+    padding: 15px 0 15px 0;
+}
+
+.navegacao-lojas{
+    margin: 25px 0 25px 0;
+}
+
+.navegacao-lojas a{
+    width: 130px;
+    margin: 0 3px 0 3px;
+    padding: 3px;
+    border-bottom: 1px solid #030c15;
+    border-radius: 5px;
+    color: rgb(6, 23, 41);
+    background-color: #fff;
+    transition: 0.5s;    
+}
+
+.navegacao-lojas a:hover{
+    color: #fff;
+    background-color: rgb(6, 23, 41);
+    text-decoration: none;
+}
+
+/* SOBRE */
+
+#sobre{
+    background-image: url('../assets/sobre/sobre-bg.jpg');
+    background-size: cover;
+}
+
+#img-sobre{
+    width: 500px;
+    height: auto;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+.txt-sobre{
+    color: #ebebeb;
+    background-color: #000000bb;
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+
+.txt-sobre p{
+    color: #ebebeb;
+    font-family: 'Canter';
+    font-size: 35px;
+    padding: 100px 10% 0 10%;
+}
+
+.vantagens{
+    width: 30%;
+    color: #ebebeb;
+    padding-top: 100px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Canter';
+    border-bottom: thin solid #ebebeb;
+    font-size: 35px;
+    cursor: default;
+}
+
+.vantagens span{
+    padding-left: 25px;
+}
+
+.vantagem-area{
+    margin-top: 100px;
+}
+
+.vantagem-area span{
+    font-family: 'Canter';
+    font-size: 25px;
+}
+
+
+@media(max-width: 990px){
+    .vantagem-area{
+        margin-bottom: 50px;
+    }
+}
+
+.regras{
+    width: 100%;
+    color: #ebebeb;
+    padding-top: 100px;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Canter';
+    font-size: 35px;
+    cursor: default;
+}
+
+.regras span{
+    padding-right: 25px;
+}
+
+.accordion{
+    background-color: none;
+}
+
+.mb-0 button{
+    color: #030c15;
+    font-family: 'Canter';
+    font-size: 24px;
+}
+
+.card-body{
+    color: #030c15;
+    font-family: 'Catamaran';
+}
+
+.mb-0 button:hover{
+    text-decoration: none;
+    color: #030c15;
+}
+
+
+#area-login h1{
+    color: #030c15;
+    font-family: 'Canter';
+    font-size: 38px;
+    border-bottom: 1px solid #030c15;
+
+}
+#area-login label{
+    color: #030c15;
+    font-family: 'Catamaran';
+    font-size: 18px;
+
+}
+
+#btn-form{
+    padding: 0px 3px 0px 3px;
+    background-color: #ebebeb;
+    color: #030c15;
+    font-family: 'Catamaran';
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    transition: 0.7s ease-out;
+}
+
+#btn-form:hover{
+    border: 1px solid #929292;
+    transition: 0.7s ease-out;
+}
+
+#btn-save{
+    padding: 0px 3px 0px 3px;
+    background-color: #094a1d;
+    color: #ebebeb;
+    font-family: 'Catamaran';
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    transition: 0.7s ease-out;
+}
+
+#btn-save{
+    border: 1px solid #929292;
+    transition: 0.7s ease-out;
+}
+
+#btn-warn{
+    padding: 0px 3px 0px 3px;
+    background-color: #800d0d;
+    color: #ebebeb;
+    font-family: 'Catamaran';
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    transition: 0.7s ease-out;
+}
+
+#btn-warn{
+    border: 1px solid #929292;
+    transition: 0.7s ease-out;
+}
+
+#area-login a{
+    color: #030c15;
+    text-decoration: none;
+}
+
+#img-login{
+    padding: 25px;
+}
+
+@media(max-width:767px){
+    #img-login{
+        display: none;
+    }
+
+
+}
+
+.msg-fail {
+    width: auto;
+    margin: 10px auto;
+    padding: 3px;
+    text-align: center;
+    color: rgb(54, 0, 0);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #000000;
+    background-color: rgba(201, 36, 36, 0.26);
+    border: 1px solid rgb(54, 0, 0);
+    border-radius: 5px;
+}
+
+div#msg-success {
+    width: auto;
+    margin: 10px auto;
+    padding: 3px;
+    background-color: rgba(141, 221, 76, 0.3);
+    border: 1px solid rgb(27, 48, 7);
+}
+
+td{
+    color: #ebebeb;
+}
+
+#btn-adm{
+    background: #343a40;
+    color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+}
+
+#btn-adm:hover{
+    background: #ebebeb;
+    color: #343a40;
+    border: 1px solid #343a40;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+}
