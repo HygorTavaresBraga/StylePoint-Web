@@ -11,13 +11,22 @@
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
   <br>
   
-  ⚙️ O Site possui as seguintes funcionalidades:
+  ⚙️ O Site possui as seguintes funcionalidades ⚙️
   <br>
-  ➜ 3 níveis de acesso (visitante, cliente e administrador);
+  📇 Cadastro e Login com Sessão;
   <br>
-  ➜ Visualização de detalhes dos produtos;
+  👤 Perfil do Cliente (dados pessoais, forma de pagamento (apenas front-end e banco de dados), locações e pagamentos realizados/a fazer)
+  <br>
+  🔒 3 níveis de acesso (visitante, cliente e administrador);
+  <br>
+  👔 Visualização de detalhes dos produtos;
+  <br>
+  👜 Sacola com quantidade e cálculo automático;
+  <br>
+  💰 Locação;
   <br>
   ➜ 
+  
   
   <br><br>
   <img src="https://user-images.githubusercontent.com/92002985/205776396-e08eac50-1335-42d8-b509-f4d68c6c257d.png" />
