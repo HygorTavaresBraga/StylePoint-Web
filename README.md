@@ -1,5 +1,5 @@
 <div align="center">
-  <p>Idealização do Projeto: Loja de Locação de Roupas de Grife Online</p>
+  <p>*Idealização do Projeto: Loja de Locação de Roupas de Grife Online*</p>
   <br>
   <p>A StylePoint foi idealizada para a conclusão do Projeto Integrador (Desenvolvimento de Site Inovador) da minha formação como Técnico em Informática na Instituição    de Ensino SENAC RJ.</p>
  <br><br>
