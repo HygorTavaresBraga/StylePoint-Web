@@ -9,10 +9,11 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <br>
+  <br><br>
   
-  ⚙️ O Site possui as seguintes funcionalidades ⚙️
-  <br>
+  ⚙️ <strong><i>O Site possui as seguintes funcionalidades</i><strong> ⚙️
+  
+  <br><br>
   📇 Cadastro e Login com Sessão;
   <br>
   👤 Perfil do Cliente (dados pessoais, forma de pagamento (apenas front-end e banco de dados), locações e pagamentos realizados/a fazer)
@@ -25,7 +26,7 @@
   <br>
   💰 Locação;
   <br>
-  ➜ 
+  👨🏻‍💻 Área Administrativa para funcionários do cargo TI.
   
   
   <br><br>
