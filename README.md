@@ -11,7 +11,8 @@
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
   <br><br>
   
-  ⚙️ <strong><i>O Site possui as seguintes funcionalidades</i><strong> ⚙️
+  <strong>
+  ⚙️ <i>O Site possui as seguintes funcionalidades</i> ⚙️
   
   <br><br>
   📇 Cadastro e Login com Sessão;
@@ -27,7 +28,8 @@
   💰 Locação;
   <br>
   👨🏻‍💻 Área Administrativa para funcionários do cargo TI.
-  
+    
+  </strong>
   
   <br><br>
   <img src="https://user-images.githubusercontent.com/92002985/205776396-e08eac50-1335-42d8-b509-f4d68c6c257d.png" />
